@@ -1,0 +1,20 @@
+{
+  "name": "ampwp",
+  "version": "1.0.0",
+  "description": "+ PHP, Wordpress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeiAmpilov/ampwp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeiAmpilov/ampwp/issues"
+  },
+  "homepage": "https://github.com/SergeiAmpilov/ampwp#readme"
+}

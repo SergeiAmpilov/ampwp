@@ -4,7 +4,7 @@
 
 + PHP, Wordpress
 
-+ HTML, CSS, Jaavascropt, Materiliaze.css, jQuery
++ HTML, CSS, Javascropt, Materiliaze.css, jQuery
 
 + React.js
 
