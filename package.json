@@ -4,7 +4,15 @@
   "description": "+ PHP, Wordpress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/SergeiAmpilov/ampwp/issues"
   },
-  "homepage": "https://github.com/SergeiAmpilov/ampwp#readme"
+  "homepage": "https://github.com/SergeiAmpilov/ampwp#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0"
+  }
 }

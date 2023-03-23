@@ -18,4 +18,12 @@ function amp_scripts() {
     true
   );
 
+  wp_enqueue_script(
+    'amp-frontend',
+    get_stylesheet_directory_uri() . '/build/index.js',
+    ['wp-element'],
+    null,
+    true
+  );
+
 }
