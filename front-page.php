@@ -1,5 +1,4 @@
 <?php get_header('front'); ?>
-
 <main>
     <div class="container">
         <div class="row">
@@ -32,6 +31,4 @@
         </div>
     </div>
 </main>
-
-
 <?php get_footer('front'); ?>
