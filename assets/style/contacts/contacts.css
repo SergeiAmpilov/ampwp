@@ -1,0 +1,6 @@
+.contacts {
+  background-size: contain;
+  /* background-position: -12%; */
+  background-image: url(../../images/bgcontacts.png);
+  background-repeat: no-repeat;
+}

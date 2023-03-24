@@ -7,7 +7,7 @@ function amp_scripts() {
   
   wp_enqueue_style(
     'amp-materialize',
-    get_template_directory_uri() . '/assets/style/materialize.min.css'
+    get_template_directory_uri() . '/assets/style/index.css'
   );
 
   wp_enqueue_script(

@@ -1,0 +1,6 @@
+@media screen and (max-width: 600px) {
+  .promo__row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

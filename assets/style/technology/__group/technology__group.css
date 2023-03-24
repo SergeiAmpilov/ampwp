@@ -1,0 +1,14 @@
+.technology__group {
+  width: 120px;
+  margin: 40px 0 0;
+  display: block;
+  text-align: center;
+  transition: .5s;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.technology__group:hover {
+  background-color: #0091ea;
+  box-shadow: 0 0 8px #0091ea;
+}
