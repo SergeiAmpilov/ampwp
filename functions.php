@@ -1,6 +1,7 @@
 <?php
 
 add_action('wp_enqueue_scripts', 'amp_scripts' );
+add_action('after_setup_theme', 'amp_support' );
 
 
 function amp_scripts() {
@@ -26,4 +27,10 @@ function amp_scripts() {
     true
   );
 
+}
+
+function amp_support()
+{
+    add_theme_support('post-thumbnails');
+    add_theme_support('title-tag');
 }

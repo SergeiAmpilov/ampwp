@@ -9,11 +9,11 @@
     <title>Резюме - Программист Ампилов</title>
 </head>
 <body class="page grey darken-4 grey-text text-lighten-4">
-<header class="header">
+<header class="header" id="home">
     <div class="navbar-fixed">
         <nav class="light-blue darken-4">
             <div class="nav-wrapper container">
-                <a href="/" class="brand-logo">
+                <a href="#home" class="brand-logo">
                     /home
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
