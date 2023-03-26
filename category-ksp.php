@@ -1,10 +1,4 @@
 <?php get_header('category'); ?>
-
-
-
-
-
-
 <main class="section">
     <div class="container">
         <div class="row">
